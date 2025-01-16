@@ -1,0 +1,47 @@
+{
+	"apiVersion": 2,
+	"name": "plugin/airdrop-block",
+	"title": "Airdrop Block",
+	"category": "widgets",
+	"icon": "money-alt",
+	"description": "A Gutenberg block manage airdrop information.",
+	"textdomain": "airdrop-block",
+	"attributes": {
+		"projectName": {
+			"type": "string",
+			"default": "Airdrop Project"
+		},
+		"projectLogo": {
+			"type": "string",
+			"default": ""
+		},
+		"status": {
+			"type": "string",
+			"default": "active"
+		},
+		"reward": {
+			"type": "string",
+			"default": ""
+		},
+		"endDate": {
+			"type": "string",
+			"default": ""
+		},
+		"raised": {
+			"type": "string",
+			"default": ""
+		},
+		"sosialLinks": {
+			"type": "string",
+			"default": ""
+		},
+		"airdropLink": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./editor.css",
+	"style": "file:./style.css",
+	 "render_callback": "render_json_block"
+}

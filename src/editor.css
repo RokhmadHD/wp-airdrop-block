@@ -1,0 +1,21 @@
+.airdrop-detail-block {
+	border: 1px dashed #0073aa;
+	padding: 20px;
+	background-color: #eef6fc;
+}
+
+.airdrop-detail-block img {
+	max-width: 100%;
+	border-radius: 10px;
+	margin-bottom: 15px;
+	width: 100px;
+	height: 100px;
+}
+
+.airdrop-detail-block h2 {
+	margin-bottom: 10px;
+}
+
+.airdrop-detail-block p {
+	margin-bottom: 8px;
+}
