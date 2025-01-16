@@ -228,7 +228,7 @@ const Edit = ({ attributes, setAttributes }) => {
 
 			{/* Block Preview */}
 			<div {...blockProps}>
-				
+				<p>Airdrop-Block (cant edit) </p>
 			</div>
 		</>
 	);
